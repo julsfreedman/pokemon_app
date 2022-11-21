@@ -19,6 +19,14 @@ class Index extends React.Component {
                   pm.name.slice(1).toLowerCase()}
               </li>
             );
+            return (
+              <li key={i}>
+                <a href={`/pokemon/${i}`}>
+                  {pm.name.charAt(0).toUpperCase() +
+                    pm.name.slice(1).toLowerCase()}
+                </a>
+              </li>
+            );
           })}
         </ul>
       </div>
