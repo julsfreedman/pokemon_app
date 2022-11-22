@@ -9,7 +9,7 @@ class New extends React.Component {
           <a href="/pokemon">Home Page</a>
         </nav>
         <form action="/pokemon" method="POST">
-          Name: <input type="text" name="name" />
+          Name: {""} <input type="text" name="name" />
           <br />
           Image:{" "}
           <input

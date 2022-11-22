@@ -7,7 +7,7 @@ const myStyle = {
 
 class Index extends React.Component {
   render() {
-    const { pokemon } = this.props;
+    const pokemon = this.props.pokemon;
     return (
       <div style={myStyle}>
         <h1>See All The Pokemon!</h1>
