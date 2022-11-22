@@ -23,6 +23,9 @@ class Index extends React.Component {
             );
           })}
         </ul>
+        <h1>
+          <a href="/pokemon/new">Create a New Pokemon</a>
+        </h1>
       </div>
     );
   }
